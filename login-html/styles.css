@@ -1,0 +1,133 @@
+/* google fonts link  */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap");
+
+body {
+  background-color: rgb(39, 38, 38);
+  font-size: 10px;
+  width: 100%;
+  height: 100%;
+  background: url(./background.jpg);
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#backgroundAnimation {
+  object-fit: cover;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+  z-index: 1;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 2;
+  background: rgba(0, 0, 0, 0.6);
+}
+/* css styles for form  */
+.form-logo {
+  height: 6em;
+  width: 20em;
+  display: inline-block;
+}
+.form-container {
+  font-family: "Roboto", sans-serif;
+  border: 2px solid #fff;
+  border-radius: 1em;
+  width: 50em;
+  display: flex;
+  z-index: 3;
+  margin: 0 auto;
+  align-items: center;
+  padding: 3em 0;
+}
+.vertical-center {
+}
+
+.form-logo {
+  margin-bottom: 6em;
+  width: 100%;
+}
+.form-heading {
+  text-align: left;
+  margin: 1em 0;
+  color: #fff;
+}
+.heading-text {
+  color: #fff;
+}
+.paragraph-text {
+  color: #fff;
+}
+.labelling {
+  margin: 1em;
+  position: relative;
+  color: #fff;
+}
+.label-name {
+  position: absolute;
+  top: -7px;
+  z-index: 4;
+  left: 6px;
+  background-color: rgb(10, 10, 10);
+  padding: 0 5px;
+  color: #fff;
+}
+.form-input {
+  background-color: rgb(0, 0, 0, 0.5);
+  height: 2em;
+  padding: 1em;
+  border: 1px solid #fff;
+  color: #fff;
+  position: relative;
+  width: 20em;
+  border-radius: 0.5em;
+}
+.form-info {
+  padding: 2em;
+  font-size: 1.2em;
+  display: block;
+  width: 100%;
+}
+.paragraph-text {
+  color: #2b6ca1;
+  text-align: center;
+}
+.form-links {
+  padding: 0.5em 0;
+  background-color: #e52626;
+  border-radius: 0.5em;
+  text-align: center;
+}
+.submit {
+}
+.button-container {
+  display: inline-block;
+}
+.form-buttons {
+  padding: 0.4em;
+  margin: 0 1em;
+  color: #fff;
+  background-color: #e52626;
+  border: none;
+  cursor: pointer;
+}
+.sign-links {
+  color: #e52626;
+}
+
+@media only screen and (max-width: 700px) {
+  .form-container {
+    width: 90vw;
+    max-width: 100vw;
+  }
+}

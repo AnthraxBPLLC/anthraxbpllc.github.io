@@ -1,0 +1,46 @@
+.form-links {
+}
+.sign-up-button {
+  padding: 0.4em;
+  margin: 0 1em;
+  color: #fff;
+  background-color: #e52626;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  width: 89%;
+  border-radius: 0.5em;
+  padding: 0.75em;
+  display: inline-block;
+}
+.sign-up-button:hover {
+  background-color: #982d2d;
+  transition: 0.2s;
+}
+
+.form-container {
+  color: #fff;
+  max-width: 50vw;
+  flex-wrap: wrap;
+  gap: 1em;
+  width: 100em;
+  justify-content: space-around;
+}
+
+#country {
+  background-color: rgb(0, 0, 0, 0.5);
+  height: 2em;
+  color: #fff;
+  border-color: #fff;
+  border-radius: 0.5em;
+  /* border-radius: 0.5em; */
+}
+@media only screen and (max-width: 650px) {
+  .form-container {
+    max-width: 98vw;
+    /* width: 90vw; */
+  }
+  .sign-up-button {
+    width: 73%;
+  }
+}
